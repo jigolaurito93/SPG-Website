@@ -2,7 +2,7 @@ import Links from "./Links";
 
 const Navbar = () => {
   return (
-    <div className="absolute top-0 flex justify-end w-full py-4 px-20">
+    <div className="absolute top-0 flex justify-end w-full py-6 px-20">
       <Links />
     </div>
   );

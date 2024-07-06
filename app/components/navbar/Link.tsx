@@ -1,7 +1,5 @@
 const NavLink = () => {
-  return <div>
-    
-  </div>;
+  return <div></div>;
 };
 
 export default NavLink;

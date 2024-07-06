@@ -18,7 +18,9 @@ const Links = () => {
   return (
     <div className="flex gap-10">
       {links.map((link) => (
-        <Link href={link.path}>{link.title}</Link>
+        <Link href={link.path} className="font-semibold text-lg tracking-wide">
+          {link.title}
+        </Link>
       ))}
     </div>
   );
